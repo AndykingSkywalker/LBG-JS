@@ -33,7 +33,7 @@ const calculateChange = (cost, amountPaid) => {
 };
 //Example usage
 const cost = 4.57;
-const amountPaid = 20.00;
+const amountPaid = 120.00;
 const changeResult = calculateChange(cost, amountPaid);
 console.log(changeResult);
 
