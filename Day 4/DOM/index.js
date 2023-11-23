@@ -14,10 +14,10 @@ const addTenParagraphs = () => {
     newParagraph.textContent = "This is a paragraph:" + " " + i;
 
     document.body.appendChild(newParagraph);
-    if (i % 2 === 0){
-    newParagraph.style.color = "#DE5848";
+    if (i % 2 === 0) {
+      newParagraph.style.color = "#DE5848";
     } else {
-        newParagraph.style.color = "blue";
+      newParagraph.style.color = "blue";
     }
-}
-}
+  }
+};
