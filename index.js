@@ -19,6 +19,5 @@ function updateCounter(value) {
   } else {
     counter = 0;
   }
-
   document.getElementById("multipleCounter").value = counter;
 }
