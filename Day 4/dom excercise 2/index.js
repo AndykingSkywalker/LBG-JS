@@ -8,8 +8,6 @@ newPara.textContent = "Hello there!";
 
 newDiv.appendChild(newPara);
 
-const firstPara = document.querySelector("h2");
+const firstPara = document.querySelector("#firstParagraph");
 
 firstPara.style.color = "red";
-
-
