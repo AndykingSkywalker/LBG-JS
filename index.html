@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <style>
+      .light {
+        color: black;
+        background-color: white;
+      }
+
+      .dark {
+        color: white;
+        background-color: black;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section>
+      <button onclick="darkMode()">Darkmode Toggle</button>
+      <h1>HELLO</h1>
+      <input id="counter" type="number" readonly value="0" />
+      <button onclick="addOneCount()" id="addOne">+1</button>
+    </section>
+    <br>
+    <section>
+      <input id="multipleCounter" type="number" readonly value="0" />
+      <br>
+      <br>
+      <div>
+      <button onclick="updateCounter(-5)">-5</button>
+      <button onclick="updateCounter(-1)">-1</button>
+      <button onclick="updateCounter(0)">RESET</button>
+      <button onclick="updateCounter(+1)">+1</button>
+      <button onclick="updateCounter(+5)">+5</button>
+    </div>
+    </section>
+  </body>
+</html>
